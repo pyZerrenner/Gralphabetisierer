@@ -38,7 +38,7 @@ Beim Öffnen einer Datei mit Makros wird nun immer gefragt, ob die Ausführung v
    
    *ODER*
    
-   Führe das Makro "Graefixieren" aus: \
+   Führe das Makro "Graefixieren" aus:\
    **Extras > Makros > Makros ausführen ... > Gralphabetisierer.odt > Standard > Gralphabetisierer > Graefixieren**
 
 3. Zum Transkribieren des Textes in das Gralphabet, klick auf die Schaltfläche "Gralphabetisieren"
@@ -55,18 +55,18 @@ Beim Öffnen einer Datei mit Makros wird nun immer gefragt, ob die Ausführung v
 
   > Z.B. "Frankfurt (am Main)." wird zu "Grankfurt (gram Grain)Gr."
   
-- Zeichen am Anfang eines Absatzes werden gelöscht.  
+- Zeichen am Anfang eines Absatzes werden gelöscht.
 
-  > Z.B. Guillements: "»Hallo, wie geht es dir?«" wird zu "Grallo, grie greht gres grir?«". 
+  > Z.B. Guillements: "»Hallo, wie geht es dir?«" wird zu "Grallo, grie greht gres grir?«".
   
   Zeichen am Anfang eines Satzes innerhalb eines Absatzes sind nicht betroffen.
   
 - Großbuchstaben innerhalb eines Wortes (z.B. ein Wort in NUR Großbuchstaben) sind nicht unterstützt.
-  Sie erhalten den normalen Präfix "Gr".  
+  Sie erhalten den normalen Präfix "Gr".
   
   > Z.B. "NUR" wird zu "GrUR".
   
-- Nicht ausgeschriebene Zahlen sind nicht unterstützt.  
+- Nicht ausgeschriebene Zahlen sind nicht unterstützt.
 
   > Z.B. "15 Äpfel" wird zu "Gr15 Gräpfel", aber "Fünfzehn Äpfel" wird zu "Grünfzehn Gräpfel".
   
@@ -77,12 +77,12 @@ Beim Öffnen einer Datei mit Makros wird nun immer gefragt, ob die Ausführung v
   (abgesehen davon wird in der Greifensteiner Sprache natürlich das Wort "Hundergrutzend" bevorzugt).
   
 - Da jedes Wort durch das Makro einzeln bearbeitet wird, werden die standardmäßigen 100 Rückgänging-Machen Schritte in Libre Office sehr schnell überschritten.
-   D.h. das Gräfixieren kann meist nicht vollständig rückgängig gemacht werden. 
+   D.h. das Gräfixieren kann meist nicht vollständig rückgängig gemacht werden.
    Es wird empfohlen, den Originaltext zuvor separat abzuspeichern.
    
-   Falls unbedingt nötig, kann die Anzahl an Rückgänging-Machen Schritte ("Undo Steps") in Libre Office Writer erhöht werden unter **Extras > Options > LibreOffice > Erweitert > Expertenoptionen > org.libreoffice.Office.Common > Undo > Undo**. 
+   Falls unbedingt nötig, kann die Anzahl an Rückgänging-Machen Schritte ("Undo Steps") in Libre Office Writer erhöht werden unter **Extras > Options > LibreOffice > Erweitert > Expertenoptionen > org.libreoffice.Office.Common > Undo > Undo**.
    Der Wert für "Steps" (Schritte) kann von 100 auf einen höheren Wert gesetzt werden.
-   Dies erhöht natürlich den verwendeten Arbeitsspeicher.
+   Dies erhöht natürlich den verwendeten Arbeitsspeicher.
 
 
 ### Bekannte Einschränkungen: Gralphabetisieren
@@ -97,7 +97,7 @@ Beim Öffnen einer Datei mit Makros wird nun immer gefragt, ob die Ausführung v
 
 ## Ablauf der Gräfixierung
 
-Die Gräfixierung eines Wortes erfolgt in den folgenden Schritten:
+Die Gräfixierung eines Wortes erfolgt in den folgenden Schritten:
 
 1. Finde den ersten Vokal in jedem Wort.
    Vokale sind definiert als a, e, i, o, u, ä, ö, ü und y (es geht hier um die Aussprache).
@@ -110,7 +110,7 @@ Die Gräfixierung eines Wortes erfolgt in den folgenden Schritten:
    
 3. Gibt es keinen Vokal in dem Wort, wird der erste Buchstabe des Wortes klein geschrieben und der ensprechende Suffix ("Gr"/"gr") dem Wort vorangestellt.
    
-   > Z.B. "Hmmm" wird zu "Grhmmm".
+   > Z.B. "Hmmm" wird zu "Grhmmm".
 
 
 ## Ablauf der Gralphabetisierung
