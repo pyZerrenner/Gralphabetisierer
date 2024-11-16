@@ -11,7 +11,7 @@ Libre Office Writer Makros zur automatischen Umsetzung der Greifensteiner Sprach
 
 1. Installiere [Libre Office](https://www.libreoffice.org/).
 2. Installiere die Schriftart "Gralphabet" von der Datei "resources/Gralphabet-Font.ttf".
-   Die Schriftart wurde von Helmfried, Burggraf der Herbstburt, erstellt.
+   Die Schriftart wurde von Helmfried, Burggraf der Herbstburg, erstellt.
 
 
 ### Makros in Libre Office aktivieren
@@ -51,7 +51,7 @@ Beim Öffnen einer Datei mit Makros wird nun immer gefragt, ob die Ausführung v
 
 ### Bekannte Einschränkungen: Gräfixieren
 
-- Folgt der Punkt am Satzende keinem Word sondern einem Zeichen (inkl. Leerzeichen), wird dem Punkt ebenfalls ein "Gr" Gräfix vorangestellt.
+- Folgt der Punkt am Satzende keinem Wort sondern einem Zeichen (inkl. Leerzeichen), wird dem Punkt ebenfalls ein "Gr" Gräfix vorangestellt.
 
   > Z.B. "Frankfurt (am Main)." wird zu "Grankfurt (gram Grain)Gr."
   
