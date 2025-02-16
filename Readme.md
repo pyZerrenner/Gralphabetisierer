@@ -51,7 +51,7 @@ Beim Öffnen einer Datei mit Makros wird nun immer gefragt, ob die Ausführung v
 
 ### Bekannte Einschränkungen: Gräfixieren
 
-- Folgt der Punkt am Satzende keinem Wort sondern einem Zeichen (inkl. Leerzeichen), wird dem Punkt ebenfalls ein "Gr" Gräfix vorangestellt.
+- Folgt der Punkt am Satzende keinem Buchstaben sondern einem Zeichen (inkl. Leerzeichen), wird dem Punkt ebenfalls ein "Gr" Gräfix vorangestellt.
 
   > Z.B. "Frankfurt (am Main)." wird zu "Grankfurt (gram Grain)Gr."
   
@@ -93,6 +93,8 @@ Beim Öffnen einer Datei mit Makros wird nun immer gefragt, ob die Ausführung v
 - Vorkommen von "S-CH" werden immer als "SCH" transkribiert. \
   
   > Z.B. "BISSCHEN" wird als "BIS-SCH-EN" transkribiert anstatt als "BISS-CH-EN".
+
+- Bug: Zwischen Absätzen werden acht Leerzeilen engefügt.
 
 
 ## Ablauf der Gräfixierung
