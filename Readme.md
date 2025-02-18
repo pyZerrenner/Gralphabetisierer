@@ -1,3 +1,5 @@
+![Gralphabetisierer-Logo](images/Gralphabetisierer_Logo.png)
+
 # Gralphabetisierer
 
 Libre Office Writer Makros zur automatischen Umsetzung der Greifensteiner Sprache
@@ -48,6 +50,8 @@ Beim Öffnen einer Datei mit Makros wird nun immer gefragt, ob die Ausführung v
    Führe das Makro "Gralphabetisieren" aus: \
    **Extras > Makros > Makros ausführen ... > Gralphabetisierer.odt > Standard > Gralphabetisierer > Gralphabetisieren**
 
+![Gralphabetisierer Beispiel Verwendung](images/Screenshot_Composite.png)
+
 
 ### Bekannte Einschränkungen: Gräfixieren
 
@@ -83,6 +87,9 @@ Beim Öffnen einer Datei mit Makros wird nun immer gefragt, ob die Ausführung v
    Falls unbedingt nötig, kann die Anzahl an Rückgänging-Machen Schritte ("Undo Steps") in Libre Office Writer erhöht werden unter **Extras > Options > LibreOffice > Erweitert > Expertenoptionen > org.libreoffice.Office.Common > Undo > Undo**.
    Der Wert für "Steps" (Schritte) kann von 100 auf einen höheren Wert gesetzt werden.
    Dies erhöht natürlich den verwendeten Arbeitsspeicher.
+   
+- Wenn man den gesamten ersten Absatz löscht oder ersetzt, werden auch die Schaltflächen "Gräfixieren" und "Gralphabetisieren" gelöscht.
+  Die zugehörigen Makros können allerdings immer noch durch das Makro Menü ausgeführt werden (s.o.).
 
 
 ### Bekannte Einschränkungen: Gralphabetisieren
