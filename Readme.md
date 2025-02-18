@@ -3,7 +3,7 @@
 # Gralphabetisierer
 
 Libre Office Writer Makros zur automatischen Umsetzung der Greifensteiner Sprache
-- Gräfixieren: Ersetze die Angangskonsonanten eines Wortes mit "Gr"
+- Gräfixieren: Umsetzung des Gredel-Grech (kurzgefasst: ersetze die Angangskonsonanten eines Wortes mit "Gr")
 - Gralphabetisieren: Transkription in das Greifensteiner Alphabet - das **_Gralphabet!_**
 
 **!!! WICHTIG: Erlaube nur Makros in Libre Office, denen du wirklich vertraust !!!**
